@@ -20,3 +20,26 @@ improved livery was made by : Hind 2010 (foxhind@gmail.com)
 Thanks to him.
 
 Repaint kit and other resources are available here: https://github.com/FGMEMBERS/BV-141
+
+<!-- Blohm & Voss BV 141 : 2010 Emmanuel BARANGER
+                 Updated : 2013 Emmanuel BARANGER
+   
+     sources          : http://en.wikipedia.org/wiki/Blohm_%26_Voss_BV_141
+
+     wingspan         : 17.45 m    (    57 ft  3 in )
+     length           : 13.95 m    (    45 ft  9 in )
+     height           :   3.6 m    (    11 ft 10 in )
+     empty weight     :  4700 kg   ( 10362 lb       )
+     max speed        :   368 km/h ( 199.0 kt       ) at sea level
+                      :   438 km/h ( 236.5 kt       ) at 5000 m ( 16404 ft )
+     engine           :  1 BMW 801A 14-cyl. air-cooled radial piston engine ( 1538 hp ) for take-off at sea level
+-->
+<!--  Source     : http://en.wikipedia.org/wiki/BMW_801
+
+    Engine       : BMW 801
+    type         : 14-cylinder supercharged two-row air-cooled radial engine
+    power        : 1742 hp at 2700 rpm for takeoff at sea level
+    weight       : 1012 kg ( 2226 lb  )
+    Displacement : 41.8 l  ( 2560 in3 )
+    Compression  : 6.5:1
+-->
