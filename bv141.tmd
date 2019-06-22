@@ -15,7 +15,7 @@
                 <[string8][RotationSpeed0][DriveShaft.GetRotationSpeed]>
                 <[string8][PowerPosition][ThrottleInput.Output]>
                 <[string8][Airspeed][AirspeedIndicator.IndicatedAirspeed]>
-                <[string8][BrakePosition][BrakeInput.Output]>
+                <[string8][BrakePosition][LeftBrakeInput.Output]>
                 <[string8][GearPosition][GearInput.Output]>
                 <[string8][FlapPosition][FlapsInput.Output]>
                 <[tmvector3d][LookAtPosition][ 2.064 0.096 -0.214 ]>
@@ -239,7 +239,7 @@
                 <[float64][Dfz][169.2]>
                 <[float64][Ktx][14100]>
                 <[float64][Kty][14100]>
-                <[float64][Ktz][14100]>
+                <[float64][Ktz][34100]>
                 <[float64][Dtx][282]>
                 <[float64][Dty][282]>
                 <[float64][Dtz][282]>
@@ -255,6 +255,9 @@
                 <[float64][K][987000]>
                 <[float64][D][18460]>
                 <[float64][Radius][0.3915]>
+			    <[float64][Width][0.226]>
+                <[float64][RimRadius][0.233]>
+                <[float64][Inflation][444738.0]>				
                 <[string8][Body][LeftGear]>
                 <[tmvector3d][R0][2.883 2.349 -2.047]>
                 <[string8][InputBrake][LeftBrakeInput.Output]>
@@ -264,6 +267,9 @@
                 <[float64][K][987000]>
                 <[float64][D][18460]>
                 <[float64][Radius][0.3915]>
+			    <[float64][Width][0.226]>
+                <[float64][RimRadius][0.233]>
+                <[float64][Inflation][444738.0]>	
                 <[string8][Body][RightGear]>
                 <[tmvector3d][R0][2.883 -2.349 -2.047]>
                 <[string8][InputBrake][RightBrakeInput.Output]>
@@ -273,6 +279,9 @@
                 <[float64][K][987000]>
                 <[float64][D][8460]>
                 <[float64][Radius][0.1615]>
+			    <[float64][Width][0.093]>
+                <[float64][RimRadius][0.096]>
+                <[float64][Inflation][544738.0]>				
                 <[string8][Body][TailGear]>
                 <[tmvector3d][R0][-4.058 0.552 -0.556]>
             >
