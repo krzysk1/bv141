@@ -320,7 +320,6 @@
                 <[string8][Control][ServoRightGearSequence.Output]>
             >
 
-
             // Airfoils
 
             <[airfoil][AirfoilHorizontalStabilizer][]
@@ -403,7 +402,6 @@
                 <[float64][StallRange][0.017453]>
                 <[float64][AttachedCenterFlap][-0.12]>
             >
-
 
             // Aerowings
 
@@ -495,7 +493,6 @@
                 <[bool][NoSplash][false]>
             >
 
-
             // Aerofuselage
 
             <[aerofuselage][CabineAero][]
@@ -509,9 +506,9 @@
                 <[float64][Cdx][ 0.05 ]>
                 <[float64][Cdy][ 2 ]>
                 <[float64][Cdz][ 2 ]>
-                <[float64][Cly][ 2.50 ]>
-                <[float64][Clz][ 2.50 ]>
-                <[float64][Cm][ 0.000 ]>
+                <[float64][Cly][ 2.5 ]>
+                <[float64][Clz][ 2.5 ]>
+                <[float64][Cm][ 0.0 ]>
             >
             <[aerofuselage][FuselageAero][]
                 <[string8][Body][Fuselage]>
@@ -524,25 +521,21 @@
                 <[float64][Cdx][ 0.05 ]>
                 <[float64][Cdy][ 1.5 ]>
                 <[float64][Cdz][ 1.5 ]>
-                <[float64][Cly][ 2.500 ]>
-                <[float64][Clz][ 2.500 ]>
-                <[float64][Cm][ 0.000 ]>
+                <[float64][Cly][ 2.5 ]>
+                <[float64][Clz][ 2.5 ]>
+                <[float64][Cm][ 0.0 ]>
             >
-
 
             // Control Inputs
 
-            <[input_default][EngineInput][]
-                <[string8][Input][Controls.AirBrake]>
-            >
-            <[input_default][ThrottleInput][]
+            <[input_lever][ThrottleInput][]
                 <[string8][Input][Controls.Throttle1]>
             >
             <[sender][SenderThrottlePosition][]
                 <[string8][Input][ThrottleInput.Output]>
                 <[string8][Message][Aircraft.Throttle]>
             >
-            <[input_default][PropSpeedInput][]
+            <[input_lever][PropSpeedInput][]
                 <[tmvector2d][Range][ 0.0 1.0 ]>
                 <[uint][Positions][41]>
                 <[float64][Value][1.0]>
@@ -559,9 +552,6 @@
             <[sender][SenderGearPosition][]
                 <[string8][Input][ServoLeftGearSequence.Output]>
                 <[string8][Message][Aircraft.Gear]>
-            >
-            <[input_default][BrakeInput][]
-                <[string8][Input][Controls.WheelBrake]>
             >
             <[input_default][LeftBrakeInput][]
                 <[string8][Input][Controls.WheelBrake.Left]>
@@ -691,26 +681,6 @@
             >
             <[output_free][ServoThrottlePositionOutput][]
                 <[string8][Input][ServoThrottlePosition.Output]>
-            >
-            <[servolinear][ServoEngineWork][]
-                <[string8][Input][EngineInput.Output]>
-                <[float64][OutputSpeed][1.0]>
-                <[float64][Position][1.0]>
-                <[float64array][InputPosition][ 0.2 0.4 ]>
-                <[float64array][OutputPosition][ 1.0 0.0 ]>
-            >
-            <[output_free][ServoEngineWorkOutput][]
-                <[string8][Input][ServoEngineWork.Output]>
-            >
-            <[servolinear][ThrottleCut][]
-                <[string8][Input][ServoEngineWork.Output]>
-                <[float64][OutputSpeed][0.5]>
-                <[float64][Position][0.0]>
-                <[float64array][InputPosition][ 0.4 0.5 ]>
-                <[float64array][OutputPosition][ 1.0 0.0 ]>
-            >
-            <[output_free][ThrottleCutOutput][]
-                <[string8][Input][ThrottleCut.Output]>
             >
             <[servoclassic][ServoPropRPM][]
                 <[string8][Input][PropSpeedInput.Output]>
@@ -861,14 +831,8 @@
                 <[float64array][InputPosition][ 1.0 2.0 ]>
                 <[float64array][OutputPosition][ 1.0 0.0 ]>
             >
-            <[output_free][ServoCapotInputOutput][]
-                <[string8][Input][ServoCapotInput.Output]>
-            >
-            <[product][ServoCapotSequenz][]
-                <[string8][Inputs][ServoCapotInput.Output ThrottleCut.Output]>
-            >
             <[servolinear][ServoCapot][]
-                <[string8][Input][ServoCapotSequenz.Output]>
+                <[string8][Input][ServoCapotInput.Output]>
                 <[float64][OutputSpeed][1.0]>
                 <[float64][Position][0.0]>
                 <[float64array][InputPosition][ 0.9 1.0 ]>
@@ -897,8 +861,8 @@
                 <[float64][InitialVelocity][72.0]>
             >
             <[airfoil][AirfoilPropeller][]
-                <[float64][Cl0][0.470000]>
-                <[float64][Cd0][0.009080]>
+                <[float64][Cl0][0.47]>
+                <[float64][Cd0][0.00908]>
                 <[float64][Cm0][-0.07]>
                 <[float64][ClAlpha][6.28]>
                 <[float64][CdAlpha][0.3]>
