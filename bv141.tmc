@@ -8,14 +8,14 @@ Converted from FlightGear by Krzysztof Kaniewski. Original 3D model made by BARA
 		<[float64][WingSpan][17.45]>
 		<[float64][Mass][4700.0]>
         <[float64][MaximumSpeed][165.2]>
-		<[float64][MinimumSpeed][40]>
-        <[float64][ApproachSpeed][33.3]>
-        <[float64][CruiseSpeed]  [55.6]>
-		<[tmvector2d][NormalSpeedRange][ 40 118 ]>
+		<[float64][MinimumSpeed][35]>
+        <[float64][ApproachSpeed][40.0]>
+        <[float64][CruiseSpeed]  [117.5]>
+		<[tmvector2d][NormalSpeedRange][ 35 118 ]>
 		<[tmvector2d][CautionSpeedRange][ 118 138.8 ]>
-		<[tmvector2d][FlapSpeedRange][ 40 65 ]>
-        <[float64][MaximumAltitude][10000.0]>
-        <[float64][CruiseAltitude] [5000.0]>
+		<[tmvector2d][FlapSpeedRange][ 35 65 ]>
+        <[float64][MaximumAltitude][33000.0]>
+        <[float64][CruiseAltitude] [16404.0]>
         <[float64][QSpan][17.4]>
         <[float64][QMass][6100.0]>
         <[float64][QSpeed][99.5]>
